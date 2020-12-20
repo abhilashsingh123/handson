@@ -1,0 +1,107 @@
+/*-- Body Reset --*/
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    background: #fff;
+  }
+  
+  .navbar-brand img {
+    height: 2rem;
+    width: 12rem;
+  }
+  .navbar {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    z-index: 1;
+    background: #fff;
+  }
+  .nav-item{
+    padding: .5rem;
+  }
+  .nav-link {
+    color: #5b5555!important;
+  }
+  .nav-link.active,
+  .nav-link:hover {
+    color: #4981b3!important;
+  }
+  nav ul{ 
+    justify-content: center;
+    margin-right: 30px;
+  }
+  nav ul li{
+     list-style-type: none;
+     display: inline-block;
+  }
+  .btn-request {
+    background-image: linear-gradient(to right, #00f260, #0575e6);
+    border-radius: 50px;
+    color: white;
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .intro {
+    padding-left: 2rem;
+  
+  }
+  .intro_img {
+     background: url("../images/bg-intro-desktop.svg") #fafafa no-repeat;
+     background-position: 100% 0;
+     background-size: 52%;
+     background-attachment: fixed;
+  }
+  .info {
+    padding: 4rem 6rem 1rem 6rem;
+    background: #E8E8E8;
+  }
+  .col {
+    border: 1px solid Transparent!important;
+  }
+  .card {
+    background: #E8E8E8!important;
+  }
+  .card-img-top {
+    height: 4rem;
+    width: 4rem;
+  }
+  .card-text {
+    font-size: 12px;
+  }
+  .article {
+    padding: 4rem 6rem 1rem 6rem;
+  }
+  .article-info__author {
+    padding-top: 10px;
+    padding-bottom: 8px;
+  }
+  .cards-img-top {
+    height: 12rem;
+    width: 15rem;
+  }
+  .footer {
+    background: #000033;
+  }
+  .site-footer_social_logo {
+    padding-top: 2rem;
+    padding-left: 3rem;
+  }
+  .site-footer_social_icons ul{ 
+    justify-content: center;
+  }
+  .site-footer_social_icons ul li{
+     display: inline-block;
+  }
+  .site-footer__menu {
+    padding-top: 2rem;
+    color: #FFFFFF;
+  }
+  .about_us {
+    padding-top: 2rem;
+    color: #FFFFFF;
+  }
+  .site-footer__request {
+    padding-top: 2rem;
+    color: #FFFFFF;
+  }
